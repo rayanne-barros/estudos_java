@@ -4,9 +4,6 @@ public class Funcionario {
 
     String nome;
     Integer idade;
-    Double salario1;
-    Double salario2;
-    Double salario3;
     double[] salarios;
 
     public void imprime() {
@@ -30,14 +27,5 @@ public class Funcionario {
 
     }
 
-    @Override
-    public String toString() {
-        return (
-                "nome='" + nome + '\'' +
-                        ", idade=" + idade +
-                        ", salario1=" + salario1 +
-                        ", salario2=" + salario2 +
-                        ", salario3=" + salario3
-        );
-    }
+
 }
